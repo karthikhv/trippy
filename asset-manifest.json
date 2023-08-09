@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/karthikhv/trippy/static/css/main.ae853423.css",
-    "main.js": "/karthikhv/trippy/static/js/main.7b275fd4.js",
-    "static/media/img5.jpg": "/karthikhv/trippy/static/media/img5.d3f5e1b60d2431299ccb.jpg",
-    "static/media/jog.jpg": "/karthikhv/trippy/static/media/jog.bd6438367f1fe9b3bac0.jpg",
-    "static/media/home.jpg": "/karthikhv/trippy/static/media/home.bed174327c4a187ccff8.jpg",
-    "static/media/contact1.jpg": "/karthikhv/trippy/static/media/contact1.2c960f53e4513554b126.jpg",
-    "static/media/img9.jpg": "/karthikhv/trippy/static/media/img9.53030367f88b4a795c43.jpg",
-    "static/media/service.jpg": "/karthikhv/trippy/static/media/service.f13faf64977d484479a3.jpg",
-    "static/media/about.jpg": "/karthikhv/trippy/static/media/about.05736e4ec8ce3bdb6f5b.jpg",
-    "static/media/mull.jpg": "/karthikhv/trippy/static/media/mull.19c0c8700385750913f6.jpg",
-    "static/media/img8.jpg": "/karthikhv/trippy/static/media/img8.e061b52c663f412952cf.jpg",
-    "static/media/img6.jpg": "/karthikhv/trippy/static/media/img6.723e80e08947f8f2d220.jpg",
-    "static/media/moutain.jpg": "/karthikhv/trippy/static/media/moutain.3ecdccd0324d965bf94f.jpg",
-    "index.html": "/karthikhv/trippy/index.html",
-    "main.ae853423.css.map": "/karthikhv/trippy/static/css/main.ae853423.css.map",
-    "main.7b275fd4.js.map": "/karthikhv/trippy/static/js/main.7b275fd4.js.map"
+    "main.css": "/trippy/static/css/main.ae853423.css",
+    "main.js": "/trippy/static/js/main.b12edb70.js",
+    "static/media/img5.jpg": "/trippy/static/media/img5.d3f5e1b60d2431299ccb.jpg",
+    "static/media/jog.jpg": "/trippy/static/media/jog.bd6438367f1fe9b3bac0.jpg",
+    "static/media/home.jpg": "/trippy/static/media/home.bed174327c4a187ccff8.jpg",
+    "static/media/contact1.jpg": "/trippy/static/media/contact1.2c960f53e4513554b126.jpg",
+    "static/media/img9.jpg": "/trippy/static/media/img9.53030367f88b4a795c43.jpg",
+    "static/media/service.jpg": "/trippy/static/media/service.f13faf64977d484479a3.jpg",
+    "static/media/about.jpg": "/trippy/static/media/about.05736e4ec8ce3bdb6f5b.jpg",
+    "static/media/mull.jpg": "/trippy/static/media/mull.19c0c8700385750913f6.jpg",
+    "static/media/img8.jpg": "/trippy/static/media/img8.e061b52c663f412952cf.jpg",
+    "static/media/img6.jpg": "/trippy/static/media/img6.723e80e08947f8f2d220.jpg",
+    "static/media/moutain.jpg": "/trippy/static/media/moutain.3ecdccd0324d965bf94f.jpg",
+    "index.html": "/trippy/index.html",
+    "main.ae853423.css.map": "/trippy/static/css/main.ae853423.css.map",
+    "main.b12edb70.js.map": "/trippy/static/js/main.b12edb70.js.map"
   },
   "entrypoints": [
     "static/css/main.ae853423.css",
-    "static/js/main.7b275fd4.js"
+    "static/js/main.b12edb70.js"
   ]
 }
