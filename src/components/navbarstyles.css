@@ -1,0 +1,150 @@
+
+.NavbarItems{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 0 30px;
+  box-shadow: 0 15px 15px 2px rgba(0, 0, 0, 0.25);
+  width: 98%;
+  margin-left: 2px;
+  margin-top: 12PX; 
+  height: 80ox;
+  border-radius: 13px;
+  font-family: 'Poppins', sans-serif;
+  position: fixed;
+  top:20px;
+  left: 50%;
+  transform: translate(-50%);
+  }
+
+  .navbar-logo{
+    color: black;
+    font-size: 35px;
+    font-style:italic;
+    
+  }
+  .navbar-logo:hover{
+    background-color: rgb(188, 231, 186);
+    color: rgb(0, 0, 0);
+    border-radius:4px;
+    transition:  3s ease-in-out;
+  }
+.nav-menu{
+  display: grid;
+  grid-template-columns: repeat(6,auto);
+  grid-gap: 25px;
+  list-style: none;
+  align-items: center;
+}
+.nav-Links{
+text-decoration: none;
+color: black;
+font-size: 25px;
+font-weight: bold;
+padding: 0.7rem 1rem;
+white-space: nowrap;
+}
+.nav-Links i{
+  padding-left: 12px;
+}
+
+.nav-Links:hover{
+  background-color: rgb(116, 157, 224);
+  color: white;
+  border-radius:4px;
+  transition: all 0.2s ease-in-out;
+}
+.nav-links-mobile{
+  display: none;
+}
+button{
+  padding: 0.5rem 1rem ;
+  white-space: nowrap;
+  border-radius: 0.3rem;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+
+  transition: 0.2s ease-in-out;
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition:0.2s ease-in-out;
+  
+}
+
+.mobile{
+  display: none;
+}
+.menu-icons{
+  display: none;
+  color: white;
+}
+
+@media screen and (max-width: 850px){
+  .NavbarItems{
+    z-index:99;
+  }
+  .nav-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background:rgb(255, 255, 255);
+    width: 100vh;
+    height: 450px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    opacity: -100%;
+    align-items: stretch;
+    padding: 80px 0 30px 0;
+    margin: 0;
+    z-index: -1;
+    transition: 0.3 ease-in-out;
+
+  }
+.nav-menu.active{
+  left: 0;
+  z-index: -1;
+  opacity: 1;
+  transition: 0.3 ease-in-out;
+}
+.nav-Links{
+  display: block;
+  width: 100%;
+  }
+
+.nav-Links:hover{
+  background: rgb(103, 175, 239);
+  transition:0.3 ease-in-out none;
+}
+button{
+  display: none;
+}
+.nav-links-mobile{
+  display: block;
+  text-align: center;
+  padding: 1.5rem;
+  margin: auto;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-size:18px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  cursor: pointer;
+
+}
+.menu-icons{
+  display: block;
+}
+.menu-icons{
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+}
+
+}

@@ -1,0 +1,78 @@
+.destination{
+  margin: 65px 100px ;
+  
+}
+.destination h1{
+  font-size: 65px;
+}
+.destination p{
+  font-size: 20px;
+  font-weight: bold;
+}
+.first-_des{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.first-_des-reverse{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.des-text{
+  width: 45%;
+  text-align: start;
+  font-size: 15px;
+}
+
+.des-text h2{
+padding-bottom: 1rem;
+}
+.image{
+  position: relative;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  z-index: -99;
+}
+.image img{
+  width: 49%;
+  height: 350px;
+  object-fit: cover;
+  margin-bottom:20px;
+  border-radius: 6px;
+  box-shadow: -1px 1px 100px -25px rgb(0, 0, 0);
+}
+.image img:nth-child(2){
+  position: absolute;
+  top: -10%;
+  right: -10px;
+}
+@media screen and (max-width: 850px) {
+  .destination{
+    margin: 4rem 2rem;
+  }
+  .first-_des{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 80px; 
+  }
+  .first-_des-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 80px;
+  }
+  .des-text{
+    width: 100%;   
+  }
+  .image{
+    width: 100%;
+    margin: 1.8rem 0;
+  }
+  .image img{
+    height: 250px;
+  }
+}

@@ -1,0 +1,23 @@
+.about-container{
+  margin:10px 45px;
+
+}
+.about-container h1{
+  padding-bottom: 15px;
+  font-size: 50px; 
+  text-align: left ;
+}
+p{
+  padding-bottom: 5px;
+  font-size: 18px;
+  font-family:'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  text-align: justify;
+}
+
+@media screen and(max-width:850px) {
+  .about-container{
+    margin: 50px 25px;
+  }
+
+}
